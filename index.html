@@ -396,6 +396,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="./assets/simplehub.css" type="text/css" media="all">
   </head>
@@ -532,16 +535,12 @@
 	                                </p>
 	                              </div>
 	                            </div>
-	                            <div class="sim-browther">
-	                            	<span>Extensions for:</span>
-	                            	<img src="images/suport_browther.png">
-	                            </div>
                               <div id="us-uk" class="banner-button">
                                 <a class="sim-btn color1" href="https://pod.simplehub.ai/login">
-                                  <img src="images/us.png">
+                                  <img src="images/f-us.png"> For US
                                 </a>
                                 <a class="sim-btn color2" href="https://pod.simplehub.ai/login">
-                                  <img src="images/uk.png">
+                                  <img src="images/f-uk.png"> For UK, DE
                                 </a>
                               </div>
 	                          </div>
@@ -580,7 +579,7 @@
 	                      </div>
 	                    </section>
 
-	                    <section class="elementor-section elementor-top-section elementor-element elementor-element-f402e2d elementor-section-boxed elementor-section-height-default elementor-section-height-default">
+	                    <section id="about" class="elementor-section elementor-top-section elementor-element elementor-element-f402e2d elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 	                      <div class="elementor-container elementor-column-gap-default">
 
 	                        <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-952971b wow slideInLeft" >
@@ -1743,8 +1742,8 @@
                       <div class="md-value-pri">
                         <span class="rank1">Simple Lite</span> 
                         <span class="rank2">Simple Pro</span> 
-                        <span class="rank3 active">Simple Support</span>      
-                        <span class="rank4">Simple Ultra Max</span>      
+                        <span class="rank3 active">S.Support</span>      
+                        <span class="rank4">S.Ultra Max</span>      
                       </div>
                     </div>
 
@@ -1758,7 +1757,7 @@
   						            <div class="checkbox-center" >
   						              <div class="md-value-pri">
                               <span class="value-m active">Popular</span>      
-                              <span class="value-y ">Annual</span>
+                              <span class="value-y ">SVIP</span>
                             </div>
   						            </div>
 
@@ -1782,7 +1781,7 @@
                     </div>
                     <h4>Simple Lite</h4>
                     <p class="sub">Suitable for new comer</p>
-                    <h3 class="pri-item1"><span class="value">Free</span><span>$</span><span class="date">/ per month</span></h3>
+                    <h3><span class="value">1.99</span>$<span class="date">/ per month</span></h3>
                     <div class="btn">
                       <a href="#">Get Started</a>
                     </div>
@@ -1806,7 +1805,7 @@
                     </div>
                     <h4>Simple Pro</h4>
                     <p class="sub">For large teams & corporations.</p>
-                    <h3><span class="value">3.99</span>$<span class="date">/ per month</span></h3>
+                    <h3><span class="value">2.99</span>$<span class="date">/ per month</span></h3>
                     <div class="btn">
                       <a href="#">Get Started</a>
                     </div>
@@ -1846,7 +1845,7 @@
                     </div>
                     <h4>Simple Ultra Max</h4>
                     <p class="sub">Best for business owners.</p>
-                    <h3><span class="value">6.99</span>$<span class="date">/ per month</span></h3>
+                    <h3><span class="value">5.99</span>$<span class="date">/ per month</span></h3>
                     <div class="btn">
                       <a href="#">Get Started</a>
                     </div>
@@ -3007,9 +3006,8 @@
     jQuery(".md-value-pri .value-y ").click(function(){
       jQuery(".md-value-pri .value-m").removeClass("active");
       jQuery(this).addClass("active");
-      jQuery(".pricing-content .item1 ").addClass("show");
-      jQuery(".pricing-content .item1 .value").text("1.99");
-      jQuery(".pricing-content .item2 .value").text("2.99");
+      jQuery(".pricing-content .item1 .value").text("1.69");
+      jQuery(".pricing-content .item2 .value").text("2.49");
       jQuery(".pricing-content .item3 .value").text("2.99");
       jQuery(".pricing-content .item4 .value").text("4.99");
       
@@ -3018,11 +3016,10 @@
     jQuery(".md-value-pri .value-m ").click(function(){
       jQuery(".md-value-pri .value-y").removeClass("active");
       jQuery(this).addClass("active");
-      jQuery(".pricing-content .item1 .value").text("Free");
-      jQuery(".pricing-content .item1 ").removeClass("show");
-      jQuery(".pricing-content .item2 .value").text("3.99");
+      jQuery(".pricing-content .item1 .value").text("1.99");
+      jQuery(".pricing-content .item2 .value").text("2.99");
       jQuery(".pricing-content .item3 .value").text("3.99");
-      jQuery(".pricing-content .item4 .value").text("6.99");
+      jQuery(".pricing-content .item4 .value").text("5.99");
       
     });
 

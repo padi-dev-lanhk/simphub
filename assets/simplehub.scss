@@ -1,3 +1,6 @@
+body{
+  font-family: "Inter", sans-serif !important;
+}
 .simplehub{
   .wiz-is-sticky{
     z-index: 999999;
@@ -238,6 +241,7 @@
     .sim-btn{
       mix-blend-mode: normal;
       border-radius: 25px;
+      height: 54px;
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
@@ -251,6 +255,16 @@
       position: relative;
       overflow: hidden;
       color: #FFFFFF;
+      align-content: center;
+      background: rgba(10, 13, 25, 0.4);
+      border: 2px solid #3B82FC;
+      padding: 0 25px;
+      min-width: 175px;
+      gap: 10px;
+      &.color1{
+        background: #3B82FC;
+        border-color:  #373737;
+      }
       img{
         position: relative;
       }
@@ -279,6 +293,9 @@
       }
     }
   }
+}
+.elementor-1701 #about.elementor-element .premium-icon-box-title.flex-center{
+  font-size: 18px;
 }
 a{
   transition: all 0.3s;
@@ -1972,8 +1989,14 @@ a{
     display: block;
     span{
       font-size: 12px;
-      padding: 5px 10px;
+      padding: 5px 8px !important;
     }
+  }
+  .pricing-section-1 .pri-left .pricing-section-2-left .md-value-pri{
+    gap: 6px;
+  }
+  .pricing-section-1{
+    padding: 0 10px !important;
   }
   .pricing-section-1 .elementor-button{
     font-size: 13px !important;
