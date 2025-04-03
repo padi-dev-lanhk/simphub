@@ -1,0 +1,36 @@
+/***************************** contact page ******************************/
+#leap-contact .leap-map {
+  margin-bottom: 20px;
+}
+#leap-contact #submit-form {
+  float: right;
+}
+.leap-contact-form {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#leap-contact .form-horizontal .control-label {
+  text-align: left;
+  width: 90px;
+}
+#leap-contact .form-horizontal .controls {
+  margin-left: 90px;
+}
+#leap-contact .contact-info div {
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+}
+#leap-contact .contact-info div:last-child {
+  border: none;
+}
+#leap-contact .contact-info div strong {
+  display: inline-block;
+  width: 70px;
+  font-weight: bold;
+}
+.leap-form-group{
+    margin-bottom: 15px;
+}
+.leap-form-control{
+    width: 100%;
+}
