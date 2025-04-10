@@ -894,7 +894,7 @@ a{
           font-style: normal;
           font-weight: 400;
           font-size: 13px;
-          line-height: 15px;
+          line-height: 17px;
           /* identical to box height, or 125% */
           display: flex;
           gap: 6px;
@@ -939,6 +939,18 @@ a{
         }
       }
     }
+  }
+}
+
+.pricing-note{
+  margin-top: 30px;
+  p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #fff;
+    opacity: 0.8;
   }
 }
 
@@ -2060,6 +2072,9 @@ a{
   }
 }
 @media(max-width: 768px) {
+  .pricing-note{
+    padding: 0 10px;
+  }
   #about .wow{
     animation: none !important;
   }
