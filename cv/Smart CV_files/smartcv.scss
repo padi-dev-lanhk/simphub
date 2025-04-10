@@ -1,0 +1,82 @@
+.smartcv_nav{
+	a{
+		font-size: 13px;
+		&.active div{
+			background: #eae7ff;
+			p{
+				color: #1170cd !important;
+			}
+			svg{
+				color: #1170cd !important;
+			}
+		}
+		&:hover{
+			div{
+				background: #eae7ff;
+				p{
+					color: #1170cd !important;
+				}
+				svg{
+					color: #1170cd !important;
+				}
+			}
+		}
+		div{
+			&:hover{
+				background: #eae7ff !important;
+				p{
+					color: #1170cd !important;
+				}
+				svg{
+					color: #1170cd !important;
+				}
+			}
+		}
+	}
+}
+
+.position-ab-t0-r15{
+	position: absolute;
+    top: 0;
+    right: 15px;
+}
+.pdl-15{
+	padding-left: 15px;
+}
+.pdl-40{
+	padding-left: 40px;
+}
+.cv_title{
+	font-size: 26px;
+	font-weight: 300;
+	padding-bottom: 0;
+}
+.cv_note{
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 0;
+	color: #726e6e;
+}
+.title-cv{
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 0;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.list-cv{
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	gap: 2.5%;
+}
+.item-cv{
+	width: 23%;
+	margin-bottom: 2.5%;
+}
+.css-wqmy7j{
+
+}
+.css-1t0c2hd{
+	padding-bottom: 0;
+}
